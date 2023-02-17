@@ -1,0 +1,48 @@
+{
+    "comment": "This file is from 20.json",
+    "x0": {
+        "neurons": [
+            {
+                "v": -50,
+                "u": -0.69234203
+            },
+            {
+                "v": -49.45122913,
+                "u": -3.12532217
+            }
+        ]
+    },
+    "param": {
+        "neurons": [
+            {
+                "a": 0.1120770,
+                "b": 0.2,
+                "c": -50,
+                "d": 2,
+                "I": 10
+            },
+            {
+                "a": 0.2,
+                "b": 0.2,
+                "c": -50,
+                "d": 2,
+                "I": 10
+            }
+        ],
+        "delta": -0.06672500
+    },
+    "fix": {
+        "period": 4
+    },
+    "new_bf": {
+        "alpha_n": 2,
+        "beta_n": 3,
+        "period": 4,
+        "parameter": "a1"
+    },
+    "cnt": {
+        "endVal": -0.3,
+        "resolution": 200,
+        "parameter": "delta"
+    }
+}

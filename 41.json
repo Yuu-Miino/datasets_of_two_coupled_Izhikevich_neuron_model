@@ -1,0 +1,47 @@
+{
+    "comment": "Made from 27.json, which is the initial set for tangent bifurcation of 3-periodic point",
+    "x0": {
+        "neurons": [
+            {
+                "v": -50.0,
+                "u": -0.5271324844752915
+            },
+            {
+                "v": -50.78972023823842,
+                "u": -2.8673347491923313
+            }
+        ]
+    },
+    "param": {
+        "neurons": [
+            {
+                "a": 0.09482053969171068,
+                "b": 0.2,
+                "c": -50,
+                "d": 2,
+                "I": 10
+            },
+            {
+                "a": 0.2,
+                "b": 0.2,
+                "c": -50,
+                "d": 2,
+                "I": 10
+            }
+        ],
+        "delta": -0.10000000000000021
+    },
+    "cnt": {
+        "endVal": -0.3,
+        "resolution": 300,
+        "parameter": "delta"
+    },
+    "bf": {
+        "theta": 1.5502779668569762e-215,
+        "period": 3,
+        "parameter": "a1"
+    },
+    "traj": {
+        "maps": 6
+    }
+}
