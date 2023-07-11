@@ -49,5 +49,12 @@
         "beta_n": 2,
         "period": 4,
         "parameter": "a1"
+    },
+    "new_bf3": {
+        "dim": 3,
+        "tspan": 1,
+        "beta_n": 2,
+        "period": 4,
+        "parameter": "a1"
     }
 }
