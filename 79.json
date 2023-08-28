@@ -2,19 +2,19 @@
     "x0": {
         "neurons": [
             {
-                "v": -50,
-                "u": -1.70623055
+                "v": -50.0,
+                "u": -1.41904926
             },
             {
-                "v": -50.01133391,
-                "u": -1.73637354
+                "v": -48.83328324,
+                "u": -4.78153262
             }
         ]
     },
     "param": {
         "neurons": [
             {
-                "a": 0.199,
+                "a": 0.17783896,
                 "b": 0.2,
                 "c": -50,
                 "d": 2,
@@ -28,33 +28,22 @@
                 "I": 10
             }
         ],
-        "delta": -0.05
-    },
-    "fix": {
-        "period": 1
+        "delta": -0.21688898
     },
     "cnt": {
         "endVal": 0,
-        "resolution": 50,
+        "resolution": 300,
         "parameter": "delta"
-    },
-    "traj": {
-        "maps": 1
-    },
-    "new_bf": {
-        "alpha_n": 1,
-        "beta_n": 1,
-        "period": 1,
-        "parameter": "a1"
-    },
-    "rmap": {
-        "period": 1
     },
     "new_bf3": {
         "dim": 3,
-        "tspan": 1,
-        "beta_n": 1,
-        "period": 1,
-        "parameter": "a1"
+        "beta_n": 3,
+        "period": 4,
+        "parameter": "a1",
+        "tspan": 2.2,
+        "alpha_n": 2
+    },
+    "traj": {
+        "maps": 4
     }
 }

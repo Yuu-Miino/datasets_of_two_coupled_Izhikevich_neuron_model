@@ -34,7 +34,7 @@
         "period": 1
     },
     "cnt": {
-        "endVal": -0.3,
+        "endVal": -0.5,
         "resolution": 300,
         "parameter": "delta"
     },

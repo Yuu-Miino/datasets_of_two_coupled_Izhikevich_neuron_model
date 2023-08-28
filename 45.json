@@ -34,7 +34,7 @@
         "period": 2
     },
     "cnt": {
-        "endVal": -0.4,
+        "endVal": -1,
         "resolution": 300,
         "parameter": "delta"
     },
@@ -55,5 +55,12 @@
     },
     "rmap": {
         "period": 2
+    },
+    "new_bf3": {
+        "dim": 3,
+        "tspan": 2,
+        "beta_n": 2,
+        "period": 2,
+        "parameter": "a1"
     }
 }

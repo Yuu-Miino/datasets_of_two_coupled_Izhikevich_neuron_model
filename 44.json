@@ -35,7 +35,7 @@
     },
     "cnt": {
         "endVal": 0,
-        "resolution": 100,
+        "resolution": 50,
         "parameter": "delta"
     },
     "traj": {
@@ -43,6 +43,13 @@
     },
     "new_bf": {
         "alpha_n": 1,
+        "beta_n": 1,
+        "period": 2,
+        "parameter": "a1"
+    },
+    "new_bf3": {
+        "dim": 3,
+        "tspan": 2,
         "beta_n": 1,
         "period": 2,
         "parameter": "a1"
